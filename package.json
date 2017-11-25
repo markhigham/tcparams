@@ -1,6 +1,9 @@
 {
     "name": "tcparams",
     "version": "0.0.1",
+    "bin": {
+        "dump-tc-parameters": "bin/dump-tc-parameters.js"
+      },
     "dependencies": {
         "minimist": "^1.1.0",
         "request": "^2.39.0"
